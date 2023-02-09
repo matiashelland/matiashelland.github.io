@@ -13,5 +13,5 @@ if(isset($_POST['submit'])) {
   $txt = "ny melding fra Tyalfa.no fra ".$name.".\n\n".$message;
 
   mail($to, $subject, $txt, $header,);
-  Header("location: index.php")
+  Header("location: index.php");
 }
